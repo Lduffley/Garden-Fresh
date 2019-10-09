@@ -1,0 +1,84 @@
+.jumbotron{
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    background-image: 
+    linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ),
+    url('imgs/choping\ block.jpg');
+    background-size: auto;
+    
+
+}
+body {
+    background:#F1F1F1 ;
+    font-family: "Nunito", sans-serif;
+}
+img{
+    height: 300px;
+    width: 300px;
+    padding-bottom: 30px;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;    
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: rgb(155, 230, 253);
+}
+
+#mainNavbar .navbar-brand {
+    color: white ;
+    font-size: 1.5rem;
+}
+.card-title{
+    text-align: left;
+}
+
+.card-text-pricing{
+    font-weight: 900;
+}
+
+.card-body{
+    text-align: center;
+}
+.bottomContainer{
+
+    text-align: center;
+}
+
+.navbar.scrolled {
+    background: #011784; 
+    transition: background 500ms;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    .blurb h2 {
+        font-size: 2rem;
+    }
+}
+
+.fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+      }
+.card-deck{
+    text-align: center;
+}
+
